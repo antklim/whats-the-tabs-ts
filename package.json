@@ -1,0 +1,25 @@
+{
+  "name": "whats-the-tabs-ts",
+  "version": "0.1.0",
+  "description": "A service to search for musical tabs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antklim/whats-the-tabs-ts.git"
+  },
+  "keywords": [
+    "example",
+    "test",
+    "api",
+    "e2e",
+    "docker"
+  ],
+  "author": "Anton Klimenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antklim/whats-the-tabs-ts/issues"
+  },
+  "homepage": "https://github.com/antklim/whats-the-tabs-ts#readme"
+}
