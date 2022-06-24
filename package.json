@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/antklim/whats-the-tabs-ts/issues"
   },
-  "homepage": "https://github.com/antklim/whats-the-tabs-ts#readme"
+  "homepage": "https://github.com/antklim/whats-the-tabs-ts#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
 }
