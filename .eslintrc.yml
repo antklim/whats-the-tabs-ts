@@ -23,3 +23,6 @@ rules:
     - error
   no-unused-vars:
     - warn
+  semi:
+    - warn
+    - never
