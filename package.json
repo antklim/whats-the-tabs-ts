@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "description": "A service to search for musical tabs",
   "scripts": {
+    "build": "tsc",
     "lint": "eslint --fix . && echo 'Lint complete.'",
     "pretest": "npm run lint",
-    "test": "jest --verbose --coverage"
+    "test": "jest --verbose --coverage",
+    "start": "npm run build && node dist/bin/server.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +32,7 @@
     "@types/jest": "^28.1.3",
     "@types/koa": "^2.13.4",
     "@types/koa-router": "^7.4.4",
+    "@types/node": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
     "eslint": "^8.18.0",
@@ -38,6 +41,7 @@
     "jest": "^28.1.1",
     "prettier": "^2.7.1",
     "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.1",
     "typescript": "^4.7.4"
   },
   "dependencies": {
