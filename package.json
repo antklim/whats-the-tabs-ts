@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "A service to search for musical tabs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint --fix . && echo 'Lint complete.'",
+    "pretest": "npm run lint",
+    "test": "jest --verbose --coverage"
   },
   "repository": {
     "type": "git",
@@ -23,12 +25,15 @@
   },
   "homepage": "https://github.com/antklim/whats-the-tabs-ts#readme",
   "devDependencies": {
+    "@types/jest": "^28.1.3",
     "@typescript-eslint/eslint-plugin": "^5.29.0",
     "@typescript-eslint/parser": "^5.29.0",
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.1",
     "prettier": "^2.7.1",
+    "ts-jest": "^28.0.5",
     "typescript": "^4.7.4"
   }
 }
