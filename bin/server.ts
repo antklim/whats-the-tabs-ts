@@ -1,5 +1,5 @@
-import Debug from "debug"
 import * as http from "http"
+import Debug from "debug"
 
 const DEFAULT_PORT = 3000
 
