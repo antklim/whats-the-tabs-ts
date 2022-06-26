@@ -1,5 +1,6 @@
 import * as http from "http"
 import Debug from "debug"
+import app from "../app"
 
 const DEFAULT_PORT = 3000
 
@@ -18,11 +19,15 @@ const onError = (err: Error) => {
 }
 
 const onListening = () => {
-  const port = 3000
-  debug(`server is listening on ${port} 🚀`)
+  const addr = server.address()
+  if (typeof addr === "object" && addr !== null && "port" in addr) {
+    debug(`server is listening on port ${addr.port} 🚀`)
+  } else {
+    debug(`server started on ${addr} 🚀`)
+  }
 }
 
-const server = http.createServer()
+const server = http.createServer(app.callback())
 server.listen(normalizePort(process.env.PORT))
 server.on("error", onError)
 server.on("listening", onListening)
