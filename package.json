@@ -6,7 +6,7 @@
     "build": "tsc",
     "lint": "eslint --fix . && echo 'Lint complete.'",
     "pretest": "npm run lint",
-    "test": "jest --verbose --coverage",
+    "test": "jest",
     "start": "npm run build && node dist/bin/server.js"
   },
   "repository": {
