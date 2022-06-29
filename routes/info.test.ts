@@ -1,6 +1,6 @@
 import Koa from "koa"
 import { agent as request } from "supertest"
-import router from "../info"
+import router from "./info"
 
 describe("Info route", () => {
   // When router exported it's possible to test it in isolation. Don't need to
