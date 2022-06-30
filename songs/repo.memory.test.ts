@@ -12,6 +12,7 @@ const song2: Song = {
   artist: "Metallica",
   title: "Orion",
 }
+
 const song3: Song = {
   id: 3,
   artist: "AC/DC",
