@@ -12,6 +12,7 @@ describe("Info route", () => {
 
   test("responses with app information", async () => {
     const res = await request(app.callback()).get("/info")
+
     expect(res.statusCode).toBe(200)
     expect(res.body).toEqual({ info: "whats-the-tabs-ts v0.1.0" })
     expect(res.get("Content-Type")).toMatch(/json/)
