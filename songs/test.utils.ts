@@ -1,4 +1,4 @@
-import { Song, SongsRepository } from "./songs"
+import { Song, SongsRepository } from "."
 import { InMemorySongsRepository } from "./repo.memory"
 import { SongsterrSongsRepository } from "./repo.songsterr"
 

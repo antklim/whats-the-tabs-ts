@@ -1,4 +1,4 @@
-import { Song } from "./songs"
+import { Song } from "."
 import { InMemorySongsRepository } from "./repo.memory"
 
 const song1: Song = {

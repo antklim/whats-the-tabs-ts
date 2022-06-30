@@ -1,4 +1,4 @@
-import { SongsUseCase } from "./songs"
+import { SongsUseCase } from "."
 import { songsRepositoryFactory } from "./test.utils"
 
 describe("Songs use case", () => {

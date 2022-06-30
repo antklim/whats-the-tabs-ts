@@ -1,4 +1,4 @@
-import { Song, SongsRepository } from "./songs"
+import { Song, SongsRepository } from "."
 
 export class InMemorySongsRepository implements SongsRepository {
   songs: Song[]
