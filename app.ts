@@ -1,7 +1,7 @@
 import Koa from "koa"
 import { v4 as uuid } from "uuid"
 
-import { SongsUseCase } from "./songs"
+import { SongsUseCase } from "./songs/index"
 import { songsRepositoryFactory } from "./songs/repo"
 
 import infoRouter from "./routes/info"
