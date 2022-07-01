@@ -21,11 +21,11 @@ export class SongsUseCase {
     this.repo = repo
   }
 
-  songsByName(name: string, limit?: number) {
+  songsByName = (name: string, limit?: number) => {
     return this.repo.songsByName(name, limit)
   }
 
-  songsByArtist(name: string, limit?: number) {
+  songsByArtist = (name: string, limit?: number) => {
     return this.repo.songsByArtist(name, limit)
   }
 }
