@@ -51,6 +51,8 @@ export default (songsUseCase: SongsUseCase) => {
       }
     }
 
+    if (!res.songs.length) ctx.throw(404, "no songs found")
+
     ctx.body = res
   })
 
