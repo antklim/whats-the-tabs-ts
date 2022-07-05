@@ -1,0 +1,68 @@
+[
+  {
+    "hasPlayer": true,
+    "artist": "Metallica",
+    "artistId": 20,
+    "title": "Master Of Puppets",
+    "songId": 455118,
+    "tracks": [
+      {
+        "tuning": [
+          64,
+          59,
+          55,
+          50,
+          45,
+          40
+        ],
+        "tuningString": "64,59,55,50,45,40",
+        "instrumentId": 67,
+        "dailyViews": 9,
+        "views": 6.091551485099999
+      }
+    ],
+    "hasChords": true,
+    "defaultTrack": 1
+  },
+  {
+    "hasPlayer": true,
+    "artist": "Metallica",
+    "artistId": 20,
+    "title": "Fade To Black",
+    "songId": 20,
+    "tracks": [
+      {
+        "tuning": [
+          64,
+          59,
+          55,
+          50,
+          45,
+          40
+        ],
+        "tuningString": "64,59,55,50,45,40",
+        "instrumentId": 66,
+        "dailyViews": 3,
+        "views": 1.3965043122391434
+      },
+      {
+        "difficulty": "BELOW_INTERMEDIATE",
+        "tuning": [
+          64,
+          59,
+          55,
+          50,
+          45,
+          40
+        ],
+        "difficultyVersion": 3,
+        "tuningString": "64,59,55,50,45,40",
+        "instrumentId": 25,
+        "dailyViews": 237,
+        "views": 224.68647070758186
+      }
+    ],
+    "hasChords": true,
+    "defaultTrack": 1
+  }
+]
