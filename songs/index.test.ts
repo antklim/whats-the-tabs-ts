@@ -1,5 +1,5 @@
 import { SongsUseCase } from "."
-import { songsRepositoryFactory } from "./test.utils"
+import { songsRepositoryFactory } from "../test/test.utils"
 
 describe("Songs use case", () => {
   const repo = songsRepositoryFactory()

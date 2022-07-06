@@ -1,7 +1,7 @@
 import Koa from "koa"
 import { agent as request } from "supertest"
 import { SongsUseCase } from "../songs/index"
-import { songsRepositoryFactory } from "../songs/test.utils"
+import { songsRepositoryFactory } from "../test/test.utils"
 import router from "./songs"
 
 describe("Songs route", () => {
