@@ -1,6 +1,6 @@
-import { Song, SongsRepository } from "."
-import { InMemorySongsRepository } from "./repo.memory"
-import { SongsterrSongsRepository } from "./repo.songsterr"
+import { Song, SongsRepository } from "../songs"
+import { InMemorySongsRepository } from "../songs/repo.memory"
+import { SongsterrSongsRepository } from "../songs/repo.songsterr"
 
 export function songsRepositoryFactory(): SongsRepository {
   if (!process.env.SONGSTERR_API_URL) {
